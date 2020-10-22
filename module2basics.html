@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/module2basics.css">
+    <title>HTML and CSS basics</title>
+</head>
+<body>
+    <h1>Link me</h1>
+    <a href="index.html">Home</a>
+    
+    <script src="scripts/behavior.js"></script>
+</body>
+</html>
+<!-- 
+Kevin Powell
+- Watch out for tutorial hell
+- Basic HTML and CSS (basic structure and syntax)
+- HyperText Markup Language: the content of websites
+- Cascading Style Sheets: how our websites look
+- and JavaScript (building blocks of the web)
+    - Programming language that manipulates HTML and CSS
+    - Used for simple manipulations to create full web apps
+
+HTML:
+- Tells the browser what the content you're writing actually is
+- "Heading or a regular paragraph?":
+    - Like a book that has chapters, titles, sections, bold words, etc.
+- A link, bold, or italic text
+- A navigation, footer, the main content of the page
+- Wraps everything in 'tags' to tell the browser what is what: <html> </html>
+    - Opening and closing tag all together gives us an element
+    - <page>
+        <heading>Chapter 3</heading>
+        <subheading>The darkness</subheading>
+        <p>The clouds start rolling in.</p>
+    - </page>
+- <!DOCTYPE html>
+        - The very first thing at the top of the document
+        - Tells the browser that this is an HTML5 document
+- <html>
+        - Telling the browser we're starting to write HTML
+        - Might seem redundant, but think of <style> and <script>
+        - Acts as the "root" of our document
+- <head>
+        - Nothing here is visible to the visitor (except <title>)
+        - Contains essential information (like meta tags)
+        - More like a brain than a head
+    - <title>
+            - In the head of the document
+            - Shows up in the tab of the browser and in search results
+- <body>
+        - Contains the content that will be visible to the user when they visit a page
+        - Headings denote hierarchy and page structure
+            - Six levels of headings (<h1>, <h2>, <h3>, <h4>, <h5>, <h6>)
+                - generally one <h1> per page
+                - <h1>
+                - <h2>
+                - <p>
+                - <h2>
+                - <p>
+        - Paragraphs are your regular text: <p>
+                - <h#> and <p> are block elements
+- <strong>
+        - Indicates that it is of strong importance 
+        - Browsers make this text bold
+        - Semantically more important than other text
+- <em>
+        - Short for emphasis
+        - Browsers make this text italic
+        - <strong> and <em> are inline elements: we use them within a paragraph
+             - We must close a strong or em tag before the end of our paragraph
+    
+
+File Organization:
+            - Staying organized is very important
+            - File names are very important
+            - Keep file names short
+            - Should be descriptive (e.g. "page2.html vs. about-us.html")
+            - No spaces, use underscores or hyphens instead _, -
+            - Use lower case ("About-Us.html" vs. "about-us.html")
+            - The main folder is called our root folder
+            - The homepage must be index.html
+            - index.html must be in the root folder, and not a sub-folder
+            - Other pages can be in subfolders, depending on how you want to stay organized
+            - Images should be placed in a sub folder for better organization
+
+Anchors and Attributes:
+            - <a> = anchor
+                - Used to link either to a different location with the current ot to another page
+            - The word google here is a link somewhere can click on... but how does the browser know where to link to?
+                - Attributes! = are always within the opening tag
+                - Attributes give extra info to the browser about the element, such as where a link goes, or the location of an image file
+                - Normally followed by an equal sign and quotation marks
+                    - href="https://google.com" within <a> not </a>
+            - A link won't work without an href attribute
+            - ABSOLUTE PATH - if the page you are linking to is NOT part of your website, it MUST start with:
+                - http:// or https:// = to let the browser know that it is an external site that you are linking to
+                    - <a href="https://google.com">google</a>
+            - RELATIVE PATH - you can link to other pages within your site by siomply putting their file name
+                    - <a href="about-us.html" or <a href="team/john.html">
+
+
+
+
+
+Jad Khalili
+
+Going to have a bunch of challenges at the end.
+Said it's okay to skip if I'm already well versed in this all.
+ -->
