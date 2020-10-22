@@ -46,6 +46,7 @@ body {
     
     /*
     CHALLENGE: change the main color to one you like!
+    /* This also changes the color of the border! */
     */
     --main-color: var(--snow);
     
